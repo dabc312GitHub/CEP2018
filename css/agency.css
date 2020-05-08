@@ -6,11 +6,11 @@
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background-color: rgba(230, 227, 227, 0.945);
+  background-color: rgba(203, 204, 255, 0.945);
 }
 
 p {
-  line-height: 1.75;
+  line-height: 3;
 }
 
 a {
@@ -31,25 +31,21 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
+  font-weight: 600;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-section {
-  padding: 100px 0;
-}
-
 section h2.section-heading {
-  font-size: 40px;
-  margin-top: 0;
-  margin-bottom: 15px;
+  font-size: 60px;
+  margin-top: -4%;
+  margin-bottom: 3.5%;
 }
 
 section h3.section-subheading {
   font-size: 16px;
   font-weight: 400;
   font-style: italic;
-  margin-bottom: 75px;
+  margin-bottom: 2%;
   text-transform: none;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -62,7 +58,7 @@ section h3.section-subheading {
 
 .btn {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .btn-xl {
@@ -71,13 +67,12 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: rgb(70, 82, 245);
-  border-color: rgb(70, 82, 245);
+  background-color: rgb(231, 179, 8);
+  color: white;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
   background-color: rgb(70, 82, 245) !important;
-  border-color: rgb(70, 82, 245) !important;
   color: white;
 }
 
@@ -115,12 +110,12 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #298A08;
+  background-color: rgb(62, 42, 240);
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #mainNav .navbar-brand {
-  color: rgb(20, 20, 20);
+  color: rgb(247, 240, 240);
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -131,13 +126,14 @@ img::-moz-selection {
   font-size: 95%;
   /* font-weight: 200; */
   letter-spacing: 1px;
-  color: rgb(29, 28, 28);
+  color: rgb(250, 246, 246);
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: rgb(228, 191, 30);
-  font-weight: bolder;
+  color: rgb(250, 206, 9);
+  font-size: 100%;
+  font-weight: bold;
 }
 
 @media (min-width: 992px) {
@@ -148,11 +144,10 @@ img::-moz-selection {
     -moz-transition: padding-top 0.2s, padding-bottom 0.2s;
     transition: padding-top 0.2s, padding-bottom 0.2s;
     border: none;
-    /* background-color: rgb(84, 74, 141); */
-    background-color: transparent;
+    background-color: rgba(82, 82, 82, 0.432);
   }
   #mainNav .navbar-brand {
-    font-size: 1.9em;
+    font-size: 2.1em;
     -webkit-transition: all 0.15s;
     -moz-transition: all 0.15s;
     transition: all 0.15s;
@@ -163,31 +158,24 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: rgba(94, 81, 211, 0.877);
+    background-color: rgba(60, 63, 255, 0.849);
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 0em;
-    padding: 10px 0;
   }
-}
-
-header {
-  height: 100%;
-  width: 100%;
-  margin: auto;
 }
 
 header.masthead {
   text-align: center;
-  margin-top: 6.3%;
+  height: 100vh;
+  width: 100%;
   color: rgb(252, 250, 250);
-  background-image: url("../img/back4.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-image: url("../img/WebDevelopment.jpeg");
+  background-color: rgb(37, 37, 37);
   background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: auto;
 }
 
 header.masthead .intro-text {
@@ -212,30 +200,30 @@ header.masthead .intro-text .intro-heading {
 }
 
 .highlight{
-  background: rgba(98, 107, 240, 0.836);
+  background: rgba(65, 65, 65, 0.836);
   border-radius: 15% 23% 18% 22%;
   padding: 15px 5px 5px 15px;
 }
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 80px;
-    padding-bottom: 100px;
+    padding-top: 165px;
+    padding-bottom: 120px;
   }
   header.masthead .intro-text .intro-lead-in {
-    font-size: 70px;
+    font-size: 85px;
     font-style: italic;
     line-height: 40px;
-    margin-top: 30px;
-    margin-bottom: 90px;
-    color: #1c1c1de0;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    color: #e2e2e2e0;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   header.masthead .intro-text .intro-heading {
-    font-size: 190px;
+    font-size: 200px;
     font-weight: 700;
     line-height: 75px;
-    margin-bottom: 9%;
+    margin-bottom: 10%;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
 }
@@ -266,7 +254,7 @@ header.masthead .intro-text .intro-heading {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background-color: rgb(69, 72, 240);
+  background-color: rgb(69, 66, 255);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -281,7 +269,7 @@ header.masthead .intro-text .intro-heading {
   height: 20px;
   margin-top: -12px;
   text-align: center;
-  color: rgb(226, 28, 28);
+  color: rgb(250, 250, 250);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
@@ -613,10 +601,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#contact {
-  background-color: #212529;
-  background-image: url("../img/map-image.png");
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: #7881fc;
 }
 
 section#contact .section-heading {
@@ -641,33 +626,33 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: rgb(70, 82, 245);
-  box-shadow: none;
+  border-color: rgb(35, 40, 107);
+  box-shadow: rgb(70, 82, 245);
 }
 
 section#contact ::-webkit-input-placeholder {
   font-weight: 700;
-  color: #ced4da;
+  color: #272999;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 section#contact :-moz-placeholder {
   font-weight: 700;
-  color: #ced4da;
+  color: #282a8a;
   /* Firefox 18- */
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 section#contact ::-moz-placeholder {
   font-weight: 700;
-  color: #ced4da;
+  color: #282a8a;
   /* Firefox 19+ */
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 section#contact :-ms-input-placeholder {
   font-weight: 700;
-  color: #ced4da;
+  color: #282a8a;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
