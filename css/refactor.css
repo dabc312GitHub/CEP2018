@@ -98,7 +98,7 @@
     }
 
     .team {
-        padding-top: 20px;
+        padding-top: 30px;
         height: 1000px;
     }
 
@@ -130,6 +130,6 @@
 }
 
 .btn-primary {
-    background-color: rgb(129, 40, 202);
-    border-color: rgb(129, 40, 202);
+    background-color: rgb(69, 66, 255);
+    border-color: rgb(69, 66, 255);
 }
