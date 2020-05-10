@@ -1,0 +1,135 @@
+
+@media (min-width: 992px) {
+
+    .section-heading {
+        margin-bottom: 30px;
+    }
+
+    section h2.section-heading {
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    .services {
+        padding-top: 130px;
+        height: 700px;
+    }
+
+    .services p {
+        line-height: 35px;
+    }
+
+    .portfolio {
+        padding-top: 30px;
+        background-color: #ffffff;
+        height: 700px;
+    }
+
+    .team {
+        padding-top: 30px;
+        height: 800px;
+    }
+
+    .team p {
+        line-height: 35px;
+    }
+
+    .contact {
+        padding-top: 30px;
+        height: 700px;
+    }
+
+    section h2.section-heading {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+    .footer {
+        position: fixed;
+        width: 200px;
+        right: 10px;
+        bottom: 10px;
+        z-index: 300;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .services {
+        padding-top: 90px;
+        height: 1100px;
+    }
+
+    .services p {
+        line-height: 25px;
+    }
+
+    .services .service-heading {
+        font-size: 20px;
+    }
+
+    section h2.section-heading {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .portfolio {
+        padding-top: 20px;
+        background-color: #ffffff;
+        height: 1030px;
+    }
+
+    .portfolio .portfolio-caption {
+        padding-top: 10px !important;
+        padding-bottom: 30px !important;
+    }
+
+    .portfolio .portfolio-caption h4 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .section-heading {
+        margin-bottom: 30px;
+    }
+
+    .section-subheading {
+        display: none;
+    }
+
+    .team {
+        padding-top: 20px;
+        height: 1000px;
+    }
+
+    .team p {
+        line-height: 25px;
+    }
+
+    .team .service-heading {
+        font-size: 20px;
+    }
+
+    .contact {
+        padding-top: 20px;
+        height: 800px;
+    }
+
+    .footer {
+        position: fixed;
+        width: 200px;
+        right: -6px;
+        bottom: -6px;
+        z-index: 300;
+    }
+}
+
+.break-line {
+    margin: auto;
+    width: 80%;
+}
+
+.btn-primary {
+    background-color: rgb(129, 40, 202);
+    border-color: rgb(129, 40, 202);
+}
